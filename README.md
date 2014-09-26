@@ -5,7 +5,7 @@ resources: 2
 ---
 # Git Merge Conflicts
 
-![What Did I Tell You](http://www.wired.com/images_blogs/underwire/2009/11/80s_movies_14a.jpg)
+![What Did I Tell You](http://www.geekynews.com/pub/wp-content/uploads/2013/09/lloyd-back-to-the-future-439x247.jpg)
 
 ## Introduction
 
