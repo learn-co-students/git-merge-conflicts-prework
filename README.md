@@ -46,7 +46,7 @@ You should now be in the `merge-index-pages` branch.
 ### Step 3: Merge!
 
 From the `merge-index-pages` branch, merge the branches `git merge <branch name>`.
- - run `git merge master`
+ - run `git merge doc-brown`
 
  But wait!!! There's a merge conflict!
 
