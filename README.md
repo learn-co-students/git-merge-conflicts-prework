@@ -9,11 +9,11 @@ resources: 2
 
 ## Introduction
 
-Marty McFly just finished his student profile at The Flation School and now needs to merge his profile with Doc Brown's so they'll both be on the student index page.
+Marty McFly just finished his student profile at The Flatiron School and now needs to merge his profile with Doc Brown's so they'll both be on the student index page.
 
 ## Merging Git Branches
 
-Marty's profile is stored in the `master` branch. Doc's is in the `doc-brown` branch. We are going to merge both branches onto a new branch and resolve the merge conflits there before putting it all back on the master branch.
+Marty's profile is stored in the `master` branch. Doc's is in the `doc-brown` branch. We are going to merge both branches onto a new branch and resolve the merge conflicts there before putting it all back on the master branch.
 
 ### Step 1: Make sure you have both branches
 
@@ -28,10 +28,11 @@ $ git branch
   doc-brown
 ```
 
-If you do not see the `doc-brown` branch, you will need to fetch it.
-- run `git fetch origin/doc-brown`
+If you do not see the `doc-brown` branch, you will need to grab it.
+- run `git checkout -t origin/doc-brown`
+(This creates a new branch on your computer that matches the`doc-brown` branch on GitHub)
 
-Now your output should include both branches. (run `git-branch` again to check. If you don't have both branches, grab an instructor or ask a teammate for help.
+Now your output should include both branches. (run `git-branch` again to check. If you don't have both branches, grab an instructor or ask a teammate for help.)
 
 
 ### Step 2: Make a new merge branch
