@@ -18,7 +18,15 @@ __This is what we will be working towards:__
 
 ## Merging Git Branches
 
-On our `master` branch, we have a placeholder profile in place. Marty's finished profile is stored in the `marty-mcfly` branch. Doc's is in the `doc-brown` branch. We are going to merge both branches onto a new branch and resolve the merge conflicts there before putting it all back on the master branch.
+On our `master` branch, we have a placeholder profile in place. Doc's finished profile is in the `doc-brown` branch. His branch looks like this:
+
+![doc-browns-branch](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/git-merge-conflicts/doc-brown-branch)
+
+Meanwhile, Marty's finished profile is stored in the `marty-mcfly` branch. His branch looks like this:
+
+![marty-mcflys-branch](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/git-merge-conflicts/marty-mcfly-branch)
+
+We are going to merge both branches onto a the master branch and resolve the merge conflicts when needed.
 
 ### Step 1: Make sure you have both branches
 
@@ -34,20 +42,21 @@ $ git branch
   marty-mcfly
 ```
 
-If you do not see the `doc-brown` or `marty-mcfly` branch, you will need to grab it from Github (also known as `origin`).
+If you do not see the `doc-brown` or `marty-mcfly` branch, you will need to grab them from GitHub (also known as `origin`).
 - run `git checkout -t origin/doc-brown`
 - run `git checkout -t origin/marty-mcfly`
 (This creates a new branch on your computer that matches the`doc-brown` and `marty-mcfly` branches on GitHub)
 
 Now your output should include both branches. (run `git branch` again to check. If you don't have both branches, grab an instructor or ask a teammate for help.)
 
-
 ### Step 2: Navigate into the `master` branch
 
 Check out the `master` branch:
 - run `git checkout master`
 
-You should now be in the `master` branch.
+You should now be in the `master` branch. If you run `open index.html`, you should see a web page that looks something like this:
+
+![placeholder-master-branch](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/git-merge-conflicts/master-branch)
 
  _(Remember: you can check by running `git branch`)_
 
