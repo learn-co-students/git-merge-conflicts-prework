@@ -187,6 +187,7 @@ Once we have that, we can then delete the `doc-brown` and `marty-mcfly` branches
 
 That's it! Open up `index.html` in your browser to see your beautiful work!
 
+![YAY](http://media0.giphy.com/media/bhrxcjDGsnGq4/200.gif)
 ## Resources
 
 - [Git Branching - Basic Branching and Merging](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
