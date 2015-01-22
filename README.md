@@ -78,7 +78,7 @@ __The `index.html` page should look like this:__
 
 ![Doc Brown Merge](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/git-merge-conflicts/add-doc-brown)
 
-Now let's try merging in Marty McFly's profile information into `master`. Perhaps it will go swimmingly.... or __will it__?
+Now let's try merging in Marty McFly's profile information into `master`. Ensure that you are currently on your `master` branch. In your Terminal, run `git merge marty-mcfly`. Perhaps it will go swimmingly.... or __will it__?
 
 Ahhhhh, wait!!! There's a merge conflict!
 
