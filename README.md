@@ -87,7 +87,7 @@ __The `index.html` page should look like this:__
 
 ![Doc Brown Merge](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/git-merge-conflicts/add-doc-brown)
 
-Now let's try merging in Marty McFly's profile information into `master`. Perhaps it will go swimmingly.... or __will it__?
+Now let's try merging in Marty McFly's profile information into `master`. Ensure that you are currently on your `master` branch. In your Terminal, run `git merge marty-mcfly`. Perhaps it will go swimmingly.... or __will it__?
 
 Ahhhhh, wait!!! There's a merge conflict!
 
@@ -196,6 +196,7 @@ Once we have that, we can then delete the `doc-brown` and `marty-mcfly` branches
 
 That's it! Open up `index.html` in your browser to see your beautiful work!
 
+![YAY](http://media0.giphy.com/media/bhrxcjDGsnGq4/200.gif)
 ## Resources
 
 - [Git Branching - Basic Branching and Merging](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
