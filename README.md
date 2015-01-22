@@ -38,7 +38,7 @@ To accomplish this, we're going to be following six steps, overviewed below:
 2. Switch to the master branch
 3. Merge Doc's branch into the master branch, then merge Marty's branch in
 4. Fix the merge conflict
-5. Delete Doc and Marty's branchs on your computer
+5. Delete Doc and Marty's branches on your computer
 6. Push up your work and submit a pull request
 
 ### Step 1: Make sure you have both branches
