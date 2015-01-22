@@ -18,15 +18,28 @@ __This is what we will be working towards:__
 
 ## Merging Git Branches
 
-On our `master` branch, we have a placeholder profile in place. Doc's finished profile is in the `doc-brown` branch. His branch looks like this:
+On our `master` branch, we have a placeholder profile in place. The index page on that branch looks like this:
+
+![avatar-placeholder-master-branch](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/git-merge-conflicts/master-branch)
+
+Doc's finished profile is in the `doc-brown` branch. The index page on his branch looks like this:
 
 ![doc-browns-branch](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/git-merge-conflicts/doc-brown-branch)
 
-Meanwhile, Marty's finished profile is stored in the `marty-mcfly` branch. His branch looks like this:
+Meanwhile, Marty's finished profile is stored in the `marty-mcfly` branch. His index page on his branch looks like this:
 
 ![marty-mcflys-branch](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/git-merge-conflicts/marty-mcfly-branch)
 
-We are going to merge both branches onto a the master branch and resolve the merge conflicts when needed.
+We are going to merge both branches onto the master branch and resolve the merge conflicts when needed.
+
+To accomplish this, we're going to be following six steps, overviewed below:
+
+1. Make sure you have all three branches
+2. Switch to the master branch
+3. Merge Doc's branch into the master branch, then merge Marty's branch in
+4. Fix the merge conflict
+5. Delete Doc and Marty's branchs on your computer
+6. Push up your work and submit a pull request
 
 ### Step 1: Make sure you have both branches
 
@@ -54,15 +67,13 @@ Now your output should include both branches. (run `git branch` again to check. 
 Check out the `master` branch:
 - run `git checkout master`
 
-You should now be in the `master` branch. If you run `open index.html`, you should see a web page that looks something like this:
-
-![placeholder-master-branch](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/git-merge-conflicts/master-branch)
+You should now be in the `master` branch. If you run `open index.html`, you should see a web page with just a placeholder avatar. Marty and Doc should not be there.
 
  _(Remember: you can check by running `git branch`)_
 
 ### Step 3: Merge!
 
-From the `master` branch, merge the branches via `git merge <branch name>`. Let's merge the `doc-brown` branch by running `git merge doc-brown` in our Terminal.
+From the `master` branch, merge the branches using merge. Let's merge the `doc-brown` branch first by running `git merge doc-brown` in our Terminal.
 
 When you merge `doc-brown` into your `master` branch, your Terminal should print a readout that looks like this:
 
@@ -87,7 +98,7 @@ __The `index.html` page should look like this:__
 
 ![Doc Brown Merge](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/git-merge-conflicts/add-doc-brown)
 
-Now let's try merging in Marty McFly's profile information into `master`. Ensure that you are currently on your `master` branch. In your Terminal, run `git merge marty-mcfly`. Perhaps it will go swimmingly.... or __will it__?
+Now let's try merging in Marty McFly's profile information into the master branch. You probably already are, but ensure that you are currently on your `master` branch (type `git branch`). Then run `git merge marty-mcfly`. Perhaps it will go swimmingly.... or __will it__?
 
 Ahhhhh, wait!!! There's a merge conflict!
 
@@ -177,9 +188,8 @@ When you're done the code should look something like this:
  ```
 
 If everything is looking good, we're ready to commit the changes before moving on.
-- run `git add index.html` to add all of the changes made in `index.html` to the stage.
+- run `git add .` to add all of the changes made in `index.html` to the stage.
 - run `git commit -am "merge marty and doc index pages"`.
-
 
 ### Step 5: You're Almost There!
 
@@ -190,13 +200,21 @@ Confirm that `index.html` in the `master` branch has the following for both Doc 
 - profile names
 - descriptions
 
-Once we have that, we can then delete the `doc-brown` and `marty-mcfly` branches:
+Remember, you can open the index page by running `open index.html`. The page should look like the picture at the very top of this readme.
+
+Once you have that, make sure you're still on the master branch. Now delete the `doc-brown` and `marty-mcfly` branches:
+
 - run `git branch -D doc-brown` to delete the `doc-brown` branch.
 - run `git branch -D marty-mcfly` to delete the `marty-mcfly` branch.
 
 That's it! Open up `index.html` in your browser to see your beautiful work!
 
-![YAY](http://media0.giphy.com/media/bhrxcjDGsnGq4/200.gif)
+![YAY](http://i.giphy.com/J1WfRHBFj8lFK.gif)
+
+### Step 6: Finish Up
+
+Remember, while your computer has these updates, GitHub has no idea that you made them. Remember to push up your changes to your remote repo and to submit a pull request!
+
 ## Resources
 
 - [Git Branching - Basic Branching and Merging](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
