@@ -77,7 +77,7 @@ From the `master` branch, merge the branches using merge. Let's merge the `doc-b
 
 When you merge `doc-brown` into your `master` branch, your Terminal should print a readout that looks like this:
 
-```unix
+```
 Updating 4040eed..cd5fd46
 Fast-forward
  img/students/doc_brown_index_profile.jpg    | Bin 0 -> 32589 bytes
