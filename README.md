@@ -38,7 +38,7 @@ To accomplish this, we're going to be following six steps, overviewed below:
 2. Switch to the master branch
 3. Merge Doc's branch into the master branch, then merge Marty's branch in
 4. Fix the merge conflict
-5. Delete Doc and Marty's branchs on your computer
+5. Delete Doc and Marty's branches on your computer
 6. Push up your work and submit a pull request
 
 ### Step 1: Make sure you have both branches
@@ -77,7 +77,7 @@ From the `master` branch, merge the branches using merge. Let's merge the `doc-b
 
 When you merge `doc-brown` into your `master` branch, your Terminal should print a readout that looks like this:
 
-```unix
+```
 Updating 4040eed..cd5fd46
 Fast-forward
  img/students/doc_brown_index_profile.jpg    | Bin 0 -> 32589 bytes
@@ -219,3 +219,4 @@ Remember, while your computer has these updates, GitHub has no idea that you mad
 
 - [Git Branching - Basic Branching and Merging](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
 - [Stack Overflow - Best (and safest) way to merge a git branch into master](http://stackoverflow.com/questions/5601931/best-and-safest-way-to-merge-a-git-branch-into-master)
+
