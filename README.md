@@ -63,9 +63,9 @@ This creates a new branch on your computer that matches the`doc-brown` and `mart
 
 ```bash
 $ git branch
-master
-doc-brown
+  doc-brown
 * marty-mcfly
+  master
 ```
 
 If you don't have all three branches, ask a teammate for help.
