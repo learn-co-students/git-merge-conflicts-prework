@@ -97,20 +97,20 @@ You're going to add both the doc-brown branch and the marty-mcfly branch to the 
 
 When you merge `doc-brown` into your `master` branch, your terminal should print a readout that looks something like this:
 
-```
-Updating 4040eed..cd5fd46
+```bash
+Updating 7d220f6..bb73c64
 Fast-forward
  img/students/doc_brown_index_profile.jpg    | Bin 0 -> 32589 bytes
  img/students/student_name_background.jpg    | Bin 72485 -> 0 bytes
  img/students/student_name_index_profile.jpg | Bin 17565 -> 0 bytes
  img/students/student_name_profile.jpg       | Bin 12632 -> 0 bytes
- index.html                                  |  20 +++++++++++++++++++-
- 5 files changed, 19 insertions(+), 1 deletion(-)
+ index.html                                  |  23 ++++++++++++++++++++++-
+ 5 files changed, 22 insertions(+), 1 deletion(-)
  create mode 100644 img/students/doc_brown_index_profile.jpg
  delete mode 100644 img/students/student_name_background.jpg
  delete mode 100644 img/students/student_name_index_profile.jpg
  delete mode 100644 img/students/student_name_profile.jpg
-```
+ ```
 
 This readout confirms that you've merged all of Doc Brown's profile information into the `master` branch. Take a look at the index page by again running `open index.html` in the terminal. It's important to keep looking at `index.html` to make sure that it looks exactly how you want it to look.
 
@@ -134,7 +134,7 @@ __This is what `index.html` should look like with the merge conflict:__
 
 ### Step 4: Fix the conflicts
 
-Open up the `index.html` file. Scroll down to around line 93. You should see something that looks like this:
+Open up the `index.html` file. Scroll down to around line 114 and 137. You should see something that looks like this:
 
 ```html
 <<<<<<< HEAD
@@ -237,7 +237,7 @@ Remember, while your computer has these updates, GitHub has no idea that you mad
 From the master branch, run:
 
 * `git push origin master`
-* Go to your forked repo (the url will look something like http://github.com/< your GitHub username>/git-merge-conflicts-<your semester name>, but you can also get there by going to your GitHub account and clicking on `repos`)
+* Go to your forked repo (the url will look something like `http://github.com/< your GitHub username>/git-merge-conflicts-<your semester name>`, but you can also get there by going to your GitHub account and clicking on `repos`)
 * Click on the green pull request button, add a title, a description if you'd like, and click "submit pull request"
 
 Congrats on fixing your first merge conflict!
