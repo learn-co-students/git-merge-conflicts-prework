@@ -45,16 +45,18 @@ To accomplish this, you're going to be following six steps, overviewed below:
 
 ### Step 1: Make sure you have both branches
 
-The first step is to see how many branches you have locally. Run `git branch` in the terminal, while you're in the "git-merge-conflicts folder, to see all of the branches.
+Remember to fork then clone down this repo. Then change directories into it:
 
-The output should look like this:
+* `cd git-merge-conflicts-< your semester name >`
+
+The first step is to see how many branches you have locally. Run `git branch` from your terminal to see all of the branches. The output should look like this:
 
 ```bash
 $ git branch
 * master
 ```
 
-To fetch the  `doc-brown` or `marty-mcfly` branches, run the following commands:
+To fetch the  `doc-brown` or `marty-mcfly` branches, run the following commands in order:
 
 * `git checkout -t origin/doc-brown`
 * `git checkout -t origin/marty-mcfly`
@@ -63,26 +65,28 @@ This creates a new branch on your computer that matches the`doc-brown` and `mart
 
 ```bash
 $ git branch
-master
-doc-brown
+  doc-brown
 * marty-mcfly
+  master
 ```
 
 If you don't have all three branches, ask a teammate for help.
+
+As you can tell, the marty-mcfly branch is starred and highlighted. This is Git's way of telling you which branch you're on. Therefore, you're on the marty-mcfly branch.
 
 ### Step 2: Navigate into the `master` branch
 
 Remember, checkout allows you to switch between branches that are on your local machine. It's time to check out the `master` branch:
 
-- run `git checkout master`
+- `git checkout master`
 
-You should now be in the `master` branch. You can confirm you're on the master banch if it's starred and highlighted when you run `git branch`:
+You should now be in the `master` branch. Remember, you can confirm you're on the master banch if it's starred and highlighted when you run `git branch`:
 
 ```bash
 $ git branch
+  doc-brown
+  marty-mcfly
 * master
-doc-brown
-marty-mcfly
 ```
 
 From the master branch, run `open index.html` from your terminal, you should see a web page with just a placeholder avatar. Marty and Doc should not be there.
