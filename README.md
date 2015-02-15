@@ -80,9 +80,9 @@ You should now be in the `master` branch. You can confirm you're on the master b
 
 ```bash
 $ git branch
+  doc-brown
+  marty-mcfly
 * master
-doc-brown
-marty-mcfly
 ```
 
 From the master branch, run `open index.html` from your terminal, you should see a web page with just a placeholder avatar. Marty and Doc should not be there.
