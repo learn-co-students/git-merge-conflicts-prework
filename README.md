@@ -1,9 +1,3 @@
----
-languages: html, css
-tags: git, todo
-resources: 2
----
-
 # Git Merge Conflicts
 
 ![What Did I Tell You](http://www.geekynews.com/pub/wp-content/uploads/2013/09/lloyd-back-to-the-future-439x247.jpg)
