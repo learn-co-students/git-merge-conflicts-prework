@@ -160,10 +160,10 @@ Open up the `index.html` file. Scroll down to around line 114 and 137. You shoul
 Git does its best to merge the code, but sometimes it just doesn't work. You need to complete the merge yourself by manually adjusting the code. Git gives you a few hints to help us out:
 
 * `<<<<<<< HEAD` - the beginning of the original branch (`master`)
-* `=======` - the end of the original branch/the begining of the branch being merged in (`marty-mcfly`)
+* `=======` - the end of the original branch/the beginning of the branch being merged in (`marty-mcfly`)
 * `>>>>>>> marty-mcfly` - the end of the new branch ( `marty-mcfly`)
 
-Take your time and shift the code around, separating the `MARTY MCFLY` and `DOC BROWN` code blocks. Use the markers from  git as a guide.
+Take your time and shift the code around, separating the `MARTY MCFLY` and `DOC BROWN` code blocks. Use the markers from git as a guide.
 
 _Hint: You can also use the HTML tags as guides. If one section ends with an opening `<a>` tag, look for the closing `</a>` tag in the next section._
 
