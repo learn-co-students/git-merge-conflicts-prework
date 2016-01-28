@@ -240,4 +240,4 @@ Congrats on fixing your first merge conflict!
 - [Stack Overflow - Best (and safest) way to merge a git branch into master](http://stackoverflow.com/questions/5601931/best-and-safest-way-to-merge-a-git-branch-into-master)
 
 
-<a href='https://learn.co/lessons/git-merge-conflicts' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/git-merge-conflicts' title='Git Merge Conflicts'>Git Merge Conflicts</a> on Learn.co and start learning to code for free.</p>
