@@ -1,4 +1,4 @@
-# Git Merge Conflicts
+git # Git Merge Conflicts
 
 ![What Did I Tell You](http://www.geekynews.com/pub/wp-content/uploads/2013/09/lloyd-back-to-the-future-439x247.jpg)
 
