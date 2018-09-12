@@ -241,3 +241,4 @@ Congrats on fixing your first merge conflict!
 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/git-merge-conflicts' title='Git Merge Conflicts'>Git Merge Conflicts</a> on Learn.co and start learning to code for free.</p>
+# git-merge-conflicts-prework
