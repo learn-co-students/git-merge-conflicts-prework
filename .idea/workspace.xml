@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7a165f6-4191-447c-9a29-085e418e61ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,10 +23,6 @@
             <state relative-caret-position="290">
               <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding>
-                <marker date="1540240211659" expanded="true" signature="4520:4547" ph="..." />
-                <marker date="1540240211659" expanded="true" signature="4975:5214" ph="..." />
-                <marker date="1540240211659" expanded="true" signature="5005:5205" ph="..." />
-                <marker date="1540240211659" expanded="true" signature="5043:5162" ph="..." />
                 <marker date="1540240211659" expanded="false" signature="5076:5082" ph="©" />
               </folding>
             </state>
@@ -125,12 +121,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540238708465</updated>
-      <workItem from="1540238709698" duration="1080000" />
+      <workItem from="1540238709698" duration="1205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1080000" />
+    <option name="totallyTimeSpent" value="1205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -177,10 +173,6 @@
         <state relative-caret-position="290">
           <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding>
-            <marker date="1540240211659" expanded="true" signature="4520:4547" ph="..." />
-            <marker date="1540240211659" expanded="true" signature="4975:5214" ph="..." />
-            <marker date="1540240211659" expanded="true" signature="5005:5205" ph="..." />
-            <marker date="1540240211659" expanded="true" signature="5043:5162" ph="..." />
             <marker date="1540240211659" expanded="false" signature="5076:5082" ph="©" />
           </folding>
         </state>
